@@ -2,28 +2,19 @@ window.addEventListener("load", function(){
 
 	var submit = document.getElementById("submit");
 
-	submit.addEventListener("click", function(){ß
+	submit.addEventListener("click", function(){
 
-		var hello = new XMLHttpRequest();
+		var check_answer = new XMLHttpRequest();
 		var crickets = new XMLHttpRequest();
-		var params = "answer=" + document.getElementByClassName("answer").value;
+		var answer = "answer=" + document.getElementById("answer").value;
 
-			if(params === "answer=yes"){
-				hello.addEventListener("load", function(greeting){
-					document.getElementById("greeting").innerHTML=(greeting.target.responseText);
+			check_answer.addEventListener("load", function(result){
+					document.getElementById("result").innerHTML=(result.target.responseText);
 				});
 
-			}else {
-				crickets.addEventListener("load", function(no_greeting){
-					document.getElementById("greeting").innerHTML=(no_greeting.target.responseText);
-				});
-			}
+		check_answer.open("$_GET", "check_answer.php")
+		check_answer.send(params);
 
-		hello.open("GET", "answer")
-		hello.send(params);
-
-		crickets.open("GET", "no_answer")
-		crickets.send(params);
 	});
 	
 });

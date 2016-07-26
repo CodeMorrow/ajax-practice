@@ -8,14 +8,13 @@
 <body>
 
 
-<h1>...anyone out there?</h1>
+<h1>Is this working?</h1>
 	<form action="" method="get">
-		<input type="radio" name="answer" class="answer" value="yes">Yes
-		<input type="radio" name="answer" class="answer" value="no">No
+		Your Answer<input type="text" id="answer" name="answer">
 		<input type="submit" id="submit" name="submit">
 	</form>
 
-<h3 id="greeting"></h3>
+<h3 id="result"></h3>
 
 </body>
 </html>
