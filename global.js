@@ -11,8 +11,8 @@ window.addEventListener("load", function(){
 					document.getElementById("result").innerHTML=(result.target.responseText);
 				});
 
-		check_answer.open("get", "check_answer.php")
-		check_answer.send(answer);
+		check_answer.open("get", "check_answer.php?answer=");
+		check_answer.send();
 
 	});
 	

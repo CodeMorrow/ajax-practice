@@ -1,5 +1,5 @@
 <?php
-	if(answer == "yes"){
+	if($_GET["answer"] == "yes"){
 ?>
 	correct
 <?php			
