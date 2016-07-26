@@ -7,16 +7,22 @@
 </head>
 <body>
 
+<h1 id="welcome">Welcome to My Math Quiz</h1>
 
-<h1>What is 3 + 3?</h1>
-	<form action="" method="get">
+<input type="button" id="start" value="Start Quiz">
+
+
+<h3 id="question">What is 3 + 3?</h3>
+	<form id="answer_field" action="" method="get">
 		Your Answer<br><input type="text" id="answer" name="answer">
 		<br>
 		<br>
 		<input type="button" id="submit" value="Submit">
 	</form>
 
-<h3 id="result"></h3>
+<div id="result"></div><br>
+
+<input type="button" id="next" value="Next >">
 
 </body>
 </html>
