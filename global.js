@@ -8,10 +8,10 @@ window.addEventListener("load", function(){
 		var answer = document.getElementById("answer").value;
 
 			check_answer.addEventListener("load", function(result){
-					document.getElementById("result").innerHTML=(result.target.responseText);
+				document.getElementById("result").innerHTML=(result.target.responseText);
 				});
 
-		check_answer.open("get", "check_answer.php?answer=");
+		check_answer.open("get", "check_answer.php?answer=" + answer);
 		check_answer.send();
 
 	});
