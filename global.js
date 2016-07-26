@@ -2,12 +2,12 @@ window.addEventListener("load", function(){
 
 	var submit = document.getElementById("submit");
 
-	submit.addEventListener("click", function(){
+	submit.addEventListener("click", function(){ß
 
 		var hello = new XMLHttpRequest();
 		var crickets = new XMLHttpRequest();
 
-			if(document.getElementsByClassName("answer") === "yes"){
+			if(document.getElementById("yes").value === "yes"){
 				hello.addEventListener("load", function(greeting){
 					document.getElementById("greeting").innerHTML=(greeting.target.responseText);
 				});
