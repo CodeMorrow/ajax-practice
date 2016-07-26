@@ -6,8 +6,9 @@ window.addEventListener("load", function(){
 
 		var hello = new XMLHttpRequest();
 		var crickets = new XMLHttpRequest();
+		var params = "answer=" + document.getElementByClassName("answer").value;
 
-			if(document.getElementById("yes").value === "yes"){
+			if(params === "answer=yes"){
 				hello.addEventListener("load", function(greeting){
 					document.getElementById("greeting").innerHTML=(greeting.target.responseText);
 				});
@@ -19,10 +20,10 @@ window.addEventListener("load", function(){
 			}
 
 		hello.open("GET", "answer")
-		hello.send();
+		hello.send(params);
 
 		crickets.open("GET", "no_answer")
-		crickets.send();
+		crickets.send(params);
 	});
 	
 });
