@@ -8,7 +8,7 @@
 <body>
 
 
-<h1>Is this working?</h1>
+<h1>What is 3 + 3?</h1>
 	<form action="" method="get">
 		Your Answer<br><input type="text" id="answer" name="answer">
 		<br>

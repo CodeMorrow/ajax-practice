@@ -1,11 +1,11 @@
 <?php
-	if($_GET["answer"] == "yes"){
+	if($_GET["answer"] == 6){
 ?>
-	correct
+	Correct!
 <?php			
 	} else {
 ?>
-	incorrect
+	Incorrect...
 <?php
 	}
 ?>
