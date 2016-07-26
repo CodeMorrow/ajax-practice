@@ -1,20 +1,11 @@
 <?php
-
-	if(answer === "answer=yes"){
-
+	if(answer == "yes"){
 ?>
-
 	correct
-
 <?php			
-
-	}else {
-
+	} else {
 ?>
 	incorrect
-
 <?php
-
 	}
-
 ?>

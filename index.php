@@ -10,8 +10,10 @@
 
 <h1>Is this working?</h1>
 	<form action="" method="get">
-		Your Answer<input type="text" id="answer" name="answer">
-		<input type="submit" id="submit" name="submit">
+		Your Answer<br><input type="text" id="answer" name="answer">
+		<br>
+		<br>
+		<input type="button" id="submit" value="Submit">
 	</form>
 
 <h3 id="result"></h3>
