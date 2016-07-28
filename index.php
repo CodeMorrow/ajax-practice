@@ -11,51 +11,59 @@
 
 <input type="button" id="start" value="Start Quiz">
 
-<div id="quiz1">
+	<div id="quiz1">
 
-	<h3 id="question1">3 + 3 =</h3>
+		<h3 id="question1">3 + 3 =</h3>
 
-	<form id="answer_field1" action="" method="get">
-		Your Answer<br><input type="text" id="answer" name="answer">
-		<br>
-		<br>
-		<input type="button" id="submit1" value="Submit">
-	</form>
-</div>
+		<form id="answer_form1" action="" method="get">
+			Your Answer<br><input type="text" id="answer1" name="answer">
+			<br>
+			<br>
+			<input type="button" id="submit1" value="Submit">
+		</form>
 
-<div id="result1"></div><br>
+		<div id="result1"></div><br>
 
-<div id="quiz2">
+		<input type="button" id="next1" value="Next">
 
-	<h3 id="question2">9 * 9 =</h3>
+	</div>
 
-	<form id="answer_field2" action="" method="get">
-		Your Answer<br><input type="text" id="answer" name="answer">
-		<br>
-		<br>
-		<input type="button" id="submit2" value="Submit">
-	</form>
 
-</div>
+	<div id="quiz2">
 
-<div id="result2"></div><br>
+		<h3 id="question2">9 * 9 =</h3>
 
-<div id="quiz3">
+		<form id="answer_form2" action="" method="get">
+			Your Answer<br><input type="text" id="answer2" name="answer">
+			<br>
+			<br>
+			<input type="button" id="submit2" value="Submit">
+		</form>
 
-	<h3 id="question3">9 * (6/3) =</h3>
+		<div id="result2"></div><br>
 
-	<form id="answer_field3" action="" method="get">
-		Your Answer<br><input type="text" id="answer" name="answer">
-		<br>
-		<br>
-		<input type="button" id="submit3" value="Submit">
-	</form>
-		
-</div>
+		<input type="button" id="next2" value="Next">
 
-<div id="result3"></div><br>
+	</div>
 
-<input type="button" id="next" value="Next">
+
+	<div id="quiz3">
+
+		<h3 id="question3">9 * (6/3) =</h3>
+
+		<form id="answer_form3" action="" method="get">
+			Your Answer<br><input type="text" id="answer3" name="answer">
+			<br>
+			<br>
+			<input type="button" id="submit3" value="Submit">
+		</form>
+
+		<div id="result3"></div><br>
+
+		<input type="button" id="next3" value="Next">
+
+	</div>
+
 
 </body>
 </html>
