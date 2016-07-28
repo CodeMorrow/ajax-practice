@@ -15,12 +15,12 @@
 
 	<h3 id="question1">3 + 3 =</h3>
 
-		<form id="answer_field1" action="" method="get">
-			Your Answer<br><input type="text" id="answer" name="answer">
-			<br>
-			<br>
-			<input type="button" id="submit1" value="Submit">
-		</form>
+	<form id="answer_field1" action="" method="get">
+		Your Answer<br><input type="text" id="answer" name="answer">
+		<br>
+		<br>
+		<input type="button" id="submit1" value="Submit">
+	</form>
 </div>
 
 <div id="result1"></div><br>
@@ -29,12 +29,12 @@
 
 	<h3 id="question2">9 * 9 =</h3>
 
-		<form id="answer_field2" action="" method="get">
-			Your Answer<br><input type="text" id="answer" name="answer">
-			<br>
-			<br>
-			<input type="button" id="submit2" value="Submit">
-		</form>
+	<form id="answer_field2" action="" method="get">
+		Your Answer<br><input type="text" id="answer" name="answer">
+		<br>
+		<br>
+		<input type="button" id="submit2" value="Submit">
+	</form>
 
 </div>
 
@@ -44,12 +44,12 @@
 
 	<h3 id="question3">9 * (6/3) =</h3>
 
-		<form id="answer_field3" action="" method="get">
-			Your Answer<br><input type="text" id="answer" name="answer">
-			<br>
-			<br>
-			<input type="button" id="submit3" value="Submit">
-		</form>
+	<form id="answer_field3" action="" method="get">
+		Your Answer<br><input type="text" id="answer" name="answer">
+		<br>
+		<br>
+		<input type="button" id="submit3" value="Submit">
+	</form>
 		
 </div>
 
