@@ -13,12 +13,10 @@
 
 	<div id="quiz1">
 
-		<h3 id="question1">3 + 3 =</h3>
+		<h3 id="question1">--</h3>
 
 		<form id="answer_form1" action="" method="get">
-			Your Answer<br><input type="text" id="answer1" name="answer">
-			<br>
-			<br>
+			Your Answer<br><input type="text" id="answer1" name="answer"><br><br>
 			<input type="button" id="submit1" value="Submit">
 		</form>
 
@@ -34,9 +32,7 @@
 		<h3 id="question2">9 * 9 =</h3>
 
 		<form id="answer_form2" action="" method="get">
-			Your Answer<br><input type="text" id="answer2" name="answer">
-			<br>
-			<br>
+			Your Answer<br><input type="text" id="answer2" name="answer"><br><br>
 			<input type="button" id="submit2" value="Submit">
 		</form>
 
@@ -52,9 +48,7 @@
 		<h3 id="question3">9 * (6/3) =</h3>
 
 		<form id="answer_form3" action="" method="get">
-			Your Answer<br><input type="text" id="answer3" name="answer">
-			<br>
-			<br>
+			Your Answer<br><input type="text" id="answer3" name="answer"><br><br>
 			<input type="button" id="submit3" value="Submit">
 		</form>
 
