@@ -133,7 +133,7 @@ window.addEventListener("load", function(){
 
 	});
 
-	update_quiz.open("GET", "quiz_data");
-	update_quiz.send();
+	quiz.open("GET", "quiz_data");
+	quiz.send();
 
 });
