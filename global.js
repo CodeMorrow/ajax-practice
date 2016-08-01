@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-	var update_quiz = new XMLHttpRequest();
+	var quiz = new XMLHttpRequest();
 
 	var welcome = document.getElementById("welcome");
 	var start = document.getElementById("start");
@@ -21,7 +21,7 @@ window.addEventListener("load", function(){
 	var result3 = document.getElementById("result3");
 	var finalResult = document.getElementById("finalResult");
 
-	update_quiz.addEventListener("load", function(e){
+	quiz.addEventListener("load", function(e){
 	
 		var quiz_data = JSON.parse(e.target.response);
 
@@ -33,8 +33,6 @@ window.addEventListener("load", function(){
 			question1.innerHTML=(quiz_data.questions.question1);
 
 		});
-
-	
 
 		submit1.addEventListener("click", function(){
 
@@ -49,7 +47,6 @@ window.addEventListener("load", function(){
 				result1.innerHTML="Incorrect";
 			}
 			
-
 		});
 
 		next1.addEventListener("click", function(){
@@ -74,7 +71,6 @@ window.addEventListener("load", function(){
 				result2.innerHTML="Incorrect";
 			}
 			
-
 		});
 
 		next2.addEventListener("click", function(){
@@ -98,7 +94,6 @@ window.addEventListener("load", function(){
 				result3.innerHTML="Incorrect";
 			}
 			
-
 		});
 
 		next3.addEventListener("click", function(){
@@ -137,6 +132,7 @@ window.addEventListener("load", function(){
 		});
 
 	});
+
 	update_quiz.open("GET", "quiz_data");
 	update_quiz.send();
 
