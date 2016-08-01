@@ -2,11 +2,14 @@ window.addEventListener("load", function(){
 
 	var update_quiz = new XMLHttpRequest();
 
+	var welcome = document.getElementById("welcome");
 	var start = document.getElementById("start");
 	var quiz1 = document.getElementById("quiz1");
 	var quiz2 = document.getElementById("quiz2");
 	var quiz3 = document.getElementById("quiz3");
-	var welcome = document.getElementById("welcome");
+	var question1 = document.getElementById("question1");
+	var question2 = document.getElementById("question2");
+	var question3 = document.getElementById("question3");
 	var next1 = document.getElementById("next1");
 	var next2 = document.getElementById("next2");
 	var next3 = document.getElementById("next3");
@@ -16,9 +19,6 @@ window.addEventListener("load", function(){
 	var result1 = document.getElementById("result1")
 	var result2 = document.getElementById("result2");
 	var result3 = document.getElementById("result3");
-	var question1 = document.getElementById("question1");
-	var question2 = document.getElementById("question2");
-	var question3 = document.getElementById("question3");
 	var finalResult = document.getElementById("finalResult");
 	// var answer = [(document.getElementById("answer1").value), (document.getElementById("answer2").value), (document.getElementById("answer3").value)];
 
