@@ -13,10 +13,10 @@
 
 	<div id="quiz1">
 
-		<h3 id="question1">--</h3>
+		<h3 id="question1"></h3>
 
 		<form id="answer_form1" action="" method="get">
-			Your Answer<br><input type="text" id="answer1" name="answer"><br><br>
+			<input type="text" id="answer1" name="answer"><br>
 			<input type="button" id="submit1" value="Submit">
 		</form>
 
@@ -29,10 +29,10 @@
 
 	<div id="quiz2">
 
-		<h3 id="question2">--</h3>
+		<h3 id="question2"></h3>
 
 		<form id="answer_form2" action="" method="get">
-			Your Answer<br><input type="text" id="answer2" name="answer"><br><br>
+			<input type="text" id="answer2" name="answer"><br>
 			<input type="button" id="submit2" value="Submit">
 		</form>
 
@@ -45,10 +45,10 @@
 
 	<div id="quiz3">
 
-		<h3 id="question3">--</h3>
+		<h3 id="question3"></h3>
 
 		<form id="answer_form3" action="" method="get">
-			Your Answer<br><input type="text" id="answer3" name="answer"><br><br>
+			<input type="text" id="answer3" name="answer"><br>
 			<input type="button" id="submit3" value="Submit">
 		</form>
 
@@ -58,7 +58,7 @@
 
 	</div>
 
-	<div id="finalResult">--</div>
+	<h3 id="finalResult"></h3>
 
 </body>
 </html>
