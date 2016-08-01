@@ -29,7 +29,7 @@
 
 	<div id="quiz2">
 
-		<h3 id="question2">9 * 9 =</h3>
+		<h3 id="question2">--</h3>
 
 		<form id="answer_form2" action="" method="get">
 			Your Answer<br><input type="text" id="answer2" name="answer"><br><br>
@@ -45,7 +45,7 @@
 
 	<div id="quiz3">
 
-		<h3 id="question3">9 * (6/3) =</h3>
+		<h3 id="question3">--</h3>
 
 		<form id="answer_form3" action="" method="get">
 			Your Answer<br><input type="text" id="answer3" name="answer"><br><br>
@@ -58,6 +58,7 @@
 
 	</div>
 
+	<div id="finalResult">--</div>
 
 </body>
 </html>
